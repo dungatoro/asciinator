@@ -1,0 +1,10 @@
+[package]
+name = "asciinator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version="4.3.19", features = ["derive"] }
+color_space = "0.5.3"
+colored = "2.0.4"
+image = "0.24.6"
