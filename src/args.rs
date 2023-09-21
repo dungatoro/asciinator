@@ -15,7 +15,7 @@ pub struct AsciinatorArgs {
 
     #[arg(short, long, 
       default_value_t = String::from(
-      r#"" .'`^",:;Il!i><~+_-?][}{1)(|\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"#
+      r#" .'`^",:;Il!i><~+_-?][}{1)(|\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"#
       ))]
     pub ramp: String,
 }
